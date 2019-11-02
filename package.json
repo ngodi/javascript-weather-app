@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ngodi/live-weather/issues"
   },
-  "homepage": "https://github.com/ngodi/live-weather#readme"
+  "homepage": "https://github.com/ngodi/live-weather#readme",
+  "dependencies": {
+    "webpack": "^4.41.2"
+  }
 }
