@@ -1,7 +1,6 @@
-import getWeather from './modules/data/weather';
-import getLocationInput from './modules/ui/weatherInput';
-import {  messagesElement, weather_iconElement, temperatureElement,
-   descriptionElement, locationElement} from './modules/ui/elements';
+import { getLocationInput, displayWeather } from './modules/ui/weatherViews';
+import {  messagesElement, weatherIconElement, temperatureElement,
+   descriptionElement, locationElement, cityElement, countryElement, btnElement} from './modules/ui/elements';
 
 
 const showCurentWeather = () => {
@@ -31,10 +30,28 @@ const setPosition = (position) => {
   fetch(api).then(response => {
     return response.json();
  }).then(data => {
-   console.log(data);
+  displayWeather(data);
+ 
+}).catch(error => {
+  messagesElement.style.display = "block";
+  messagesElement.innerHTML = error;
 });
 }
 
+btnElement.addEventListener('click', ()=> {
+ let location = getLocationInput();
+ let API_KEY = '67d0e0f98e9f6eed6c046ce44004ced6';
+ let api = `http://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=${API_KEY}`;
+ fetch(api).then(response => {
+  return response.json();
+}).then(data => {
+displayWeather(data);
+
+}).catch(error => {
+messagesElement.style.display = "block";
+messagesElement.innerHTML = error;
+});
+});
 
 const showError = (error) => {
 notificationElement.style.display = 'block';
@@ -43,6 +60,8 @@ notificationElement.innerHTML = 'error';
 
 const init = () => {
   showCurentWeather();
+  
 };
 
 init();
+

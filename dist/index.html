@@ -15,13 +15,16 @@
              <div class='title flex'>
                <h2>Weather</h2>
                <input type='text' placeholder='enter location' class='search'>
+               <button type="button" class="btn btn-primary btn-xs" id='btn'>show weather</button>
              </div>
              <div class='messages'></div>
              <div class="weather-container">
-               <div class="weather-icon"><img src=''></div>
-               <div class="temperature"><span>C</span></div>
+               <div class="weather-icon"></div>
+               <div><span class="temperature"></span>°- <span class='unit'>C</span></div>
                <div class='description'></div>
-               <div class='location'></div>
+               <div class='location'><span class='city'></span>
+                                     <span class='country'></span>
+                                    </div>
              </div>
            </div>
            <div class='col-md-2'></div>

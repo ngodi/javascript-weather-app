@@ -1,11 +1,14 @@
 let messagesElement = document.querySelector('.messages');
-let weather_iconElement = document.querySelector('.weather-icon') ;
+let weatherIconElement = document.querySelector('.weather-icon') ;
 let temperatureElement = document.querySelector('.temperature');
 let descriptionElement = document.querySelector('.description');
-let locationElement = document.querySelector('.location');
 let searchElement = document.querySelector('.search');
+let btnElement = document.querySelector('#btn');
+let cityElement = document.querySelector('.city');
+let countryElement = document.querySelector('.country');
 
 export {
-    messagesElement, weather_iconElement, temperatureElement,
-     descriptionElement, locationElement, searchElement
+    messagesElement, weatherIconElement, temperatureElement,
+     descriptionElement,searchElement, btnElement,
+     cityElement, countryElement
 }
