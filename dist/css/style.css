@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.light-blue{
+    background: lightblue;
+}
+
+.flex{
+display: flex;
+justify-content: space-between;
+}
+
+.search{
+    height: 35px;
+    border-radius: 5px;
+}
