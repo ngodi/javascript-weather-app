@@ -1,4 +1,6 @@
+import {  messagesElement, weather_iconElement, temperatureElement,
+    descriptionElement, locationElement, searchElement} from './elements';
 
-const getLocationInput = () => {
-
+export const getLocationInput = () => {
+   return searchElement.value;
 };

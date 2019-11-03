@@ -4,7 +4,7 @@
 }
 
 .light-blue{
-    background: lightblue;
+    background: linear-gradient(to Right, lightblue, lightgray, skyblue);
 }
 
 .flex{
