@@ -17,7 +17,7 @@ Navigate into dist/index.html and open the index.html
 
 ### Live view
 
-live-weather\](#)
+[coming soon](#)
 
 ### Author
 
