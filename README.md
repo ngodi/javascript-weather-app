@@ -2,7 +2,7 @@ LIVE-WEATHER
 
 Live-weather is a javascript application that enables the user to query weather information at a specific location. This enables users to view the weather condition so as to better plan their day.
 
-It is part of Microversesolo in course project, as a demonstration of javascript features; APIs, promises, async/await.
+It is part of Microverse solo in course project, as a demonstration of javascript features; APIs, promises, async/await.
 
 ### Installation
 
@@ -17,7 +17,7 @@ Navigate into dist/index.html and open the index.html
 
 ### Live view
 
-live-weather\](#)
+[coming soon](#)
 
 ### Author
 
