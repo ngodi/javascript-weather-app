@@ -41,3 +41,8 @@ align-items: flex-start;
     width: 300px;
     height: 150px;
 }
+.description{
+    margin: 40px 0;
+    color: rgb(195, 0, 255);
+    font-size: 30px;
+}
