@@ -7,6 +7,21 @@
     background: linear-gradient(to Right, lightblue, lightgray, skyblue);
 }
 
+.main-container{
+    background: white;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+.title{
+    background: rgba(0, 0, 0, 0.562);
+    border-radius: 10px;
+    width: inherit;
+}
+.input-field{
+    margin: 50px 0;
+}
 .flex{
 display: flex;
 justify-content: space-between;
@@ -16,4 +31,13 @@ align-items: flex-start;
 .search{
     height: 35px;
     border-radius: 5px;
+}
+
+.messages{
+    background-color: #f8d7da;
+    display: none;
+}
+.weather-icon img{
+    width: 300px;
+    height: 150px;
 }
