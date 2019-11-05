@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>live-weather</title>
+    <meta charset="utf-8" >
+    <link rel='icon' href='./assets/images/favicon.ico' type='image/x-icon' sizes="16x16" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body class='light-blue'>
+       <div class='container'>
+         <div class='row'>
+           <div class='col-md-2'></div>
+           <div class='col-md-8'>
+             <div class=' main-container'>
+             <div class='title'>
+               <h2>Weather Forecast</h2>
+             </div>
+             <div class="input-field">
+              <input type='text' placeholder='enter another location' class='search'>
+              <button type="button" class="btn btn-primary btn-xs" id='btn'>show weather</button>
+             </div>
+             <div class='messages'></div>
+             <div class="weather-container">
+               <div class="weather-icon"><img src='assets/icons/unknown.png'></div>
+               <div><span class="temperature"></span><span class='unit'>-°C</span></div>
+               <button type="button" class="btn btn-info" id='temp-switch'>View in Fahrenheits</button>
+               <div class='description'></div>
+               <div class='location'><span class='city'></span>
+                                     <span class='country'></span>
+                                    </div>
+             </div>
+            </div>
+           </div>
+           <div class='col-md-2'></div>
+         </div>
+       </div>
+    <script  src="main.js"></script>
+  </body>
+</html>
