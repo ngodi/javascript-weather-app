@@ -17,7 +17,7 @@ Navigate into dist/index.html and open the index.html
 
 ### Live view
 
-[coming soon](https://raw.githack.com/ngodi/live-weather/dev/dist/index.html)
+[Live-weather](https://raw.githack.com/ngodi/live-weather/dev/dist/index.html)
 
 ### Author
 
